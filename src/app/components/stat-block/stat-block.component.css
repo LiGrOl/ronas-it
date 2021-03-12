@@ -1,0 +1,13 @@
+.stat-block {
+  width: 450px;
+}
+
+.stat-block--title {
+  font-size: 25px;
+  color: rgba(255, 255, 255, .5);
+}
+
+.stat-block--data {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+}

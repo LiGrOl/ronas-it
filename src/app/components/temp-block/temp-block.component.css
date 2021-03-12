@@ -1,0 +1,30 @@
+.temp-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: position .5s;
+}
+
+.temp-block--temp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 200px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.temp-block--temp__icon {
+  margin-right: 20px;
+  width: 160px;
+}
+
+.temp-block--temp__icon>img {
+  width: 150px;
+  height: 150px;
+}
+
+.temp-block--more {
+  font-size: 35px;
+  color: rgba(255, 255, 255, 1);
+}

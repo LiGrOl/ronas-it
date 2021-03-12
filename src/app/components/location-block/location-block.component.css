@@ -1,0 +1,95 @@
+.location-block {
+  width: 500px;
+  height: 200px;
+  animation-name: blockIn;
+  animation-duration: .5s;
+}
+
+.location-block--title {
+  font-size: 70px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.location-block--actions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 26px;
+  color: rgba(255, 255, 255, .5);
+}
+
+.location-block--actions__item>svg,
+.location-block--actions__item {
+  transition: all .2s;
+}
+
+.location-block--actions__item:hover {
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.location-block--actions__item:hover>svg {
+  fill: rgba(255, 255, 255, 1);
+}
+
+svg {
+  width: 20px;
+  fill: rgba(255, 255, 255, .5);
+}
+
+.changing-block {
+  display: flex;
+  width: 500px;
+  height: 50px;
+  justify-content: space-around;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  margin-top: 30px;
+  animation-name: blockIn;
+  animation-duration: .5s;
+}
+
+.changing-block>input {
+  border: none;
+  width: 450px;
+  font-size: 30px;
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 5px 0 0 5px;
+  transition: all .2s;
+}
+
+.changing-block>input:focus {
+  outline: none;
+}
+
+.changing-block>button:focus {
+  outline: none;
+}
+
+.changing-block>button:hover {
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.changing-block>button {
+  border: none;
+  color: #1086ff;
+  font-size: 30px;
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 0 5px 5px 0;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+@keyframes blockIn {
+
+}
+
+@keyframes blockOut {
+  0% {
+    margin-bottom: 0px;
+    opacity: 1;
+  }
+  100% {
+    margin-bottom: -50px;
+    opacity: 0;
+  }
+}

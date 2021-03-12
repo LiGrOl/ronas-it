@@ -1,0 +1,20 @@
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #498cec;
+  padding: 80px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.bottom-row {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 80px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
